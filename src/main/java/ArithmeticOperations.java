@@ -40,20 +40,20 @@ public class ArithmeticOperations {
         System.out.println();
 
         System.out.println("Переполнение:");
-        int maxValue = Integer.MAX_VALUE; // 2147483647
-        int overflowAdd = maxValue + 1;
-        System.out.println(overflowAdd);
+        int maxValue =2147483647;
+        int res1 = maxValue + 1;
+        System.out.println("Результат 1: " + res1);
 
-        int minValue = Integer.MIN_VALUE; // -2147483648
-        int underflow = minValue - 1;
-        System.out.println(underflow);
+        int minValue = - 2147483648;
+        int res2 = minValue - 1;
+        System.out.println("Результат 2: " + res2);
 
         byte d = 127;
         byte exam =(byte) (127 + 1);
-        System.out.println(exam);
+        System.out.println("Результат 3 " + exam);
 
         int e = 32768;
         short exam1 = (short) (32768+1);
-        System.out.println(exam1);
+        System.out.println("Результат 4 " + exam1);
     }
 }
